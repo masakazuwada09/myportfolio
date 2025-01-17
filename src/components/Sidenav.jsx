@@ -24,7 +24,7 @@ const Sidenav = () => {
                 <div className='fixed w-full h-screen bg-white/50 flex flex-col justify-center items-center z-20 filter: blur(64px) ease-in duration-200'>
                     <a href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <AiOutlineHome size={20} />
-                        <span className='pl-4'>Home</span>
+                        <span className='pl-4'>Homez</span>
                     </a>
                     <a href="#work" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                         <GrProjects size={20} />

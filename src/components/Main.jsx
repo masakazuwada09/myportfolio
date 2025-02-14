@@ -16,12 +16,12 @@ function App() {
   }
 
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
+    <section id="/" style={{ width: '100vw', height: '100vh' }}>
       <Spline
-        scene="https://prod.spline.design/ycz48U57iIj0uNyI/scene.splinecode"
+        scene="https://prod.spline.design/o3UhmE5m6CBexKWS/scene.splinecode"
         onLoad={onLoad}
       />
-    </div>
+    </section>
 
   );
 }

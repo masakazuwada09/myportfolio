@@ -18,7 +18,7 @@ function App() {
   return (
     <section id="/" style={{ width: '100vw', height: '100vh' }}>
       <Spline
-        scene="https://prod.spline.design/o3UhmE5m6CBexKWS/scene.splinecode"
+        scene="https://prod.spline.design/bg-9N4VJJ6-8RFDJ/scene.splinecode"
         onLoad={onLoad}
       />
     </section>

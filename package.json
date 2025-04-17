@@ -62,5 +62,8 @@
         "tailwindcss": "^4.1.4",
         "vite": "^5.2.12",
         "workbox-cli": "^7.1.0"
+    },
+    "devDependencies": {
+        "@tailwindcss/postcss": "^4.1.4"
     }
 }

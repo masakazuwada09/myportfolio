@@ -115,7 +115,7 @@ const postFile = async (data: Note) => {
         message: 'new shared note',
         content: Buffer.from(fileContent).toString('base64'),
         committer: {
-            name: 'Max Böck',
+            name: 'Masakazu',
             email: 'hello@mxb.dev'
         }
     }

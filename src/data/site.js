@@ -1,7 +1,7 @@
 export default {
-    title: 'Max Böck',
+    title: 'Masakazu', 
     description:
-        'Max Böck is a professional front-end developer based in Vienna, Austria.',
+        'Masakazu is a professional front-end developer based in Vienna, Austria.',
     lang: 'en',
     locale: 'en_US',
     domain: 'mxb.dev',

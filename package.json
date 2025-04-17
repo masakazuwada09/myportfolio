@@ -9,7 +9,7 @@
     "type": "module",
     "scripts": {
         "start": "npm run dev",
-        "dev": "run-p dev:* --print-label",
+        "dev": "run-p dev:* --print-label", 
         "dev:eleventy": "eleventy --serve",
         "dev:vite": "vite",
         "build": "cross-env NODE_ENV=production run-s clean build:vite build:eleventy workbox clean:vite --print-label",

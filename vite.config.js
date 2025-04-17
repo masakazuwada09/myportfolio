@@ -11,6 +11,8 @@ import rehypeImgSize from 'rehype-img-size';
 import rehypeSlug from 'rehype-slug';
 import rehypePrism from '@mapbox/rehype-prism';
 
+const isDev = process.env.NODE_ENV === 'development';
+
 export default defineConfig({
   assetsInclude: ['**/*.glb', '**/*.hdr', '**/*.glsl'],
   build: {
@@ -25,7 +27,7 @@ export default defineConfig({
       remarkPlugins: [remarkFrontmatter, remarkMdxFrontmatter],
       providerImportSource: '@mdx-js/react',
     }),
-    remixCloudflareDevProxy(),
+    isDev && remixCloudflareDevProxy(), // ✅ Only in dev mode
     remix({
       routes(defineRoutes) {
         return defineRoutes(route => {
@@ -34,5 +36,5 @@ export default defineConfig({
       },
     }),
     jsconfigPaths(),
-  ],
+  ].filter(Boolean), // ✅ Clean out any falsey plugins (like `false`)
 });

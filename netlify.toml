@@ -4,3 +4,10 @@
 
 [build.environment]
   NODE_VERSION = "18"
+
+[build.environment]
+  MINIFLARE_DISABLE = "true"
+
+
+[build.environment]
+  NODE_OPTIONS = "--trace-warnings"

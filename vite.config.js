@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
   vitePlugin as remix,
   cloudflareDevProxyVitePlugin as remixCloudflareDevProxy,
@@ -36,3 +37,12 @@ export default defineConfig({
     jsconfigPaths(),
   ],
 });
+=======
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+})
+>>>>>>> e83e48ddc4d8291edb9fe87371546f63354905b8

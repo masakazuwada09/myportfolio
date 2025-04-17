@@ -1,4 +1,5 @@
 [build]
+<<<<<<< HEAD
     command = "npm run build"
     publish = "dist"
     functions = "functions"
@@ -80,3 +81,12 @@
     from = "*"
     to = "/404"
     status = 404
+=======
+  command = "npm run build"
+  publish = "build/client"
+
+[build.environment]
+  NODE_VERSION = "18"
+  MINIFLARE_DISABLED = "true"
+  
+>>>>>>> 31975cbbed29c5c6daec27d53e32e68f24e030c1

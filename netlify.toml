@@ -6,3 +6,5 @@
   NODE_VERSION = "18"
 
 
+[build.environment]
+  MINIFLARE_DISABLED = "true"

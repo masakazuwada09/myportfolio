@@ -1,44 +1,310 @@
 [
     {
-        "id": "default",
-        "name": "Classic",
+        "id": "sakura-blossom",
+        "name": "Sakura Blossom",
         "colors": {
-            "primary": "#ff335f",
-            "secondary": "#43a9a3",
-            "text": "#373a3c",
-            "border": "#eceeef",
-            "background": "#ffffff",
-            "primaryOffset": "#ff1447",
-            "textOffset": "#818a91",
-            "backgroundOffset": "#f7f7f9"
+            "primary": "#fda4af",
+            "secondary": "#fcd5ce",
+            "text": "#4f1c1c",
+            "border": "#ffe4e1",
+            "background": "#fff0f5",
+            "primaryOffset": "#ffcad4",
+            "textOffset": "#6b3c3c",
+            "backgroundOffset": "#ffe8f0"
         }
     },
     {
-        "id": "dark",
-        "name": "Dark",
+        "id": "autumn-leaves",
+        "name": "Autumn Leaves",
         "colors": {
-            "primary": "#ff5277",
-            "secondary": "#43a9a3",
+            "primary": "#ff7f50",
+            "secondary": "#ffd166",
+            "text": "#3a2e39",
+            "border": "#f5deb3",
+            "background": "#fff3e0",
+            "primaryOffset": "#ffa07a",
+            "textOffset": "#5c443b",
+            "backgroundOffset": "#f8e5c0"
+        }
+    },
+    {
+        "id": "winter-chill",
+        "name": "Winter Chill",
+        "colors": {
+            "primary": "#a8dadc",
+            "secondary": "#457b9d",
+            "text": "#1d3557",
+            "border": "#cdeffd",
+            "background": "#f1faee",
+            "primaryOffset": "#d4f1f9",
+            "textOffset": "#457b9d",
+            "backgroundOffset": "#e3f2f7"
+        }
+    },
+    {
+        "id": "halloween-night",
+        "name": "Halloween Night",
+        "colors": {
+            "primary": "#ff7518",
+            "secondary": "#7d5fff",
+            "text": "#f8f8f2",
+            "border": "#4b0082",
+            "background": "#1c1c1c",
+            "primaryOffset": "#ffa94d",
+            "textOffset": "#c0c0c0",
+            "backgroundOffset": "#2b2b2b"
+        }
+    },
+    {
+        "id": "fluorescent-office",
+        "name": "Funky Fluorescent Office",
+        "colors": {
+            "primary": "#b8f5ff",
+            "secondary": "#fbff00",
+            "text": "#0a0a0a",
+            "border": "#bfbfbf",
+            "background": "#f0fff0",
+            "primaryOffset": "#d0faff",
+            "textOffset": "#404040",
+            "backgroundOffset": "#e6ffe6"
+        }
+    },
+    {
+        "id": "vaporwave-dream",
+        "name": "Vaporwave Dream",
+        "colors": {
+            "primary": "#ff71ce",
+            "secondary": "#01cdfe",
+            "text": "#fefefe",
+            "border": "#8f00ff",
+            "background": "#2d1b4f",
+            "primaryOffset": "#fb88ff",
+            "textOffset": "#d5d5d5",
+            "backgroundOffset": "#3e2a67"
+        }
+    },
+    {
+        "id": "pixel-pop",
+        "name": "Pixel Pop",
+        "colors": {
+            "primary": "#ff3860",
+            "secondary": "#23d160",
             "text": "#ffffff",
-            "border": "#2d2d2d",
-            "background": "#0e141b",
-            "primaryOffset": "#ff2957",
-            "textOffset": "#818a91",
-            "backgroundOffset": "#252526"
+            "border": "#3d3d3d",
+            "background": "#1c1c1c",
+            "primaryOffset": "#ff79c6",
+            "textOffset": "#c0c0c0",
+            "backgroundOffset": "#2a2a2a"
         }
     },
     {
-        "id": "beach",
-        "name": "Koopa Beach",
+        "id": "jungle-haze",
+        "name": "Jungle Haze",
         "colors": {
-            "primary": "#ff9d00",
-            "secondary": "#bae8e8",
-            "text": "#272343",
-            "border": "#e3f6f5",
-            "background": "#fffffe",
-            "primaryOffset": "#ffca00",
-            "textOffset": "#2d334a",
-            "backgroundOffset": "#e3f6f5"
+            "primary": "#2ec4b6",
+            "secondary": "#cbf3f0",
+            "text": "#172121",
+            "border": "#a6e3e9",
+            "background": "#e3fdfd",
+            "primaryOffset": "#0fa3b1",
+            "textOffset": "#3a4f41",
+            "backgroundOffset": "#cbf1f5"
+        }
+    },
+    {
+        "id": "retro-crt",
+        "name": "Retro CRT",
+        "colors": {
+            "primary": "#00ff00",
+            "secondary": "#ff00ff",
+            "text": "#00ff00",
+            "border": "#003300",
+            "background": "#000000",
+            "primaryOffset": "#66ff66",
+            "textOffset": "#33ff33",
+            "backgroundOffset": "#111111"
+        }
+    },
+    {
+        "id": "spacepunk",
+        "name": "Spacepunk",
+        "colors": {
+            "primary": "#f72585",
+            "secondary": "#3a0ca3",
+            "text": "#edf2f4",
+            "border": "#7209b7",
+            "background": "#10002b",
+            "primaryOffset": "#ff4da6",
+            "textOffset": "#dee2e6",
+            "backgroundOffset": "#240046"
+        }
+    },
+    {
+        "id": "tokyo-night",
+        "name": "Tokyo Night",
+        "colors": {
+            "primary": "#82aaff",
+            "secondary": "#ff9e64",
+            "text": "#c0caf5",
+            "border": "#1a1b26",
+            "background": "#1a1b26",
+            "primaryOffset": "#7dcfff",
+            "textOffset": "#a9b1d6",
+            "backgroundOffset": "#2f3549"
+        }
+    },
+    {
+        "id": "gruvbox-dark",
+        "name": "Gruvbox Dark",
+        "colors": {
+            "primary": "#fabd2f",
+            "secondary": "#83a598",
+            "text": "#ebdbb2",
+            "border": "#3c3836",
+            "background": "#282828",
+            "primaryOffset": "#fe8019",
+            "textOffset": "#a89984",
+            "backgroundOffset": "#1d2021"
+        }
+    },
+    {
+        "id": "synthwave84",
+        "name": "SynthWave '84",
+        "colors": {
+            "primary": "#f92aad",
+            "secondary": "#04d9ff",
+            "text": "#f5f5f5",
+            "border": "#663399",
+            "background": "#2a2139",
+            "primaryOffset": "#fb94ff",
+            "textOffset": "#ffd700",
+            "backgroundOffset": "#3b2c4a"
+        }
+    },
+    {
+        "id": "void-mage",
+        "name": "Void Mage",
+        "colors": {
+            "primary": "#9d4edd",
+            "secondary": "#5a189a",
+            "text": "#f3f0ff",
+            "border": "#3c096c",
+            "background": "#1d0633",
+            "primaryOffset": "#c77dff",
+            "textOffset": "#d0bfff",
+            "backgroundOffset": "#2e1065"
+        }
+    },
+    {
+        "id": "hyrule-nights",
+        "name": "Hyrule Nights",
+        "colors": {
+            "primary": "#ffd700",
+            "secondary": "#4caf50",
+            "text": "#ffffff",
+            "border": "#003f5c",
+            "background": "#0b132b",
+            "primaryOffset": "#ffe066",
+            "textOffset": "#a5a58d",
+            "backgroundOffset": "#1c2541"
+        }
+    },
+    {
+        "id": "neo",
+        "name": "Neo Tokyo",
+        "colors": {
+            "primary": "#ff007c",
+            "secondary": "#00ffe7",
+            "text": "#e0e0e0",
+            "border": "#303030",
+            "background": "#0c0c1e",
+            "primaryOffset": "#ff4da6",
+            "textOffset": "#aaaaaa",
+            "backgroundOffset": "#1a1a2f"
+        }
+    },
+    {
+        "id": "lotus",
+        "name": "Cyber Lotus",
+        "colors": {
+            "primary": "#da70d6",
+            "secondary": "#4db8ff",
+            "text": "#ffffff",
+            "border": "#654ea3",
+            "background": "#2a2a40",
+            "primaryOffset": "#e495e8",
+            "textOffset": "#bbbbbb",
+            "backgroundOffset": "#393960"
+        }
+    },
+    {
+        "id": "peach",
+        "name": "Peach Garden",
+        "colors": {
+            "primary": "#ffb7b2",
+            "secondary": "#a0c4ff",
+            "text": "#4f4f4f",
+            "border": "#ffe0e0",
+            "background": "#fffaf0",
+            "primaryOffset": "#ff9999",
+            "textOffset": "#888888",
+            "backgroundOffset": "#fff0e6"
+        }
+    },
+    {
+        "id": "crystal",
+        "name": "Crystal Caverns",
+        "colors": {
+            "primary": "#90e0ef",
+            "secondary": "#48cae4",
+            "text": "#03045e",
+            "border": "#ade8f4",
+            "background": "#caf0f8",
+            "primaryOffset": "#72d3df",
+            "textOffset": "#0077b6",
+            "backgroundOffset": "#a9d6e5"
+        }
+    },
+    {
+        "id": "midnight",
+        "name": "Midnight Drive",
+        "colors": {
+            "primary": "#0ef6cc",
+            "secondary": "#3d348b",
+            "text": "#ffffff",
+            "border": "#282c34",
+            "background": "#1a1a2e",
+            "primaryOffset": "#11a37f",
+            "textOffset": "#a0a0a0",
+            "backgroundOffset": "#202030"
+        }
+    },
+    {
+        "id": "arcade",
+        "name": "Sunset Arcade",
+        "colors": {
+            "primary": "#f72585",
+            "secondary": "#b5179e",
+            "text": "#fff1e6",
+            "border": "#ffb3c1",
+            "background": "#240046",
+            "primaryOffset": "#ff4da6",
+            "textOffset": "#ffd6ff",
+            "backgroundOffset": "#3c096c"
+        }
+    },
+    {
+        "id": "frozen",
+        "name": "Frozen Tundra",
+        "colors": {
+            "primary": "#a2d2ff",
+            "secondary": "#bde0fe",
+            "text": "#003049",
+            "border": "#e0fbfc",
+            "background": "#edf6f9",
+            "primaryOffset": "#74c0fc",
+            "textOffset": "#5c677d",
+            "backgroundOffset": "#d8f3dc"
         }
     },
     {
@@ -56,59 +322,17 @@
         }
     },
     {
-        "id": "moomoo",
-        "name": "Moo Moo Farm",
+        "id": "velvet",
+        "name": "Velvet Void",
         "colors": {
-            "primary": "#f582ae",
-            "secondary": "#8bd3dd",
-            "text": "#172c66",
-            "border": "#f3d2c1",
-            "background": "#fef6e4",
-            "primaryOffset": "#ff3d6a",
-            "textOffset": "#006e8a",
-            "backgroundOffset": "#f3e1d8"
-        }
-    },
-    {
-        "id": "bowser",
-        "name": "Bowser's Castle",
-        "colors": {
-            "primary": "#7f5af0",
-            "secondary": "#2cb67d",
-            "text": "#fffffe",
-            "border": "#383a61",
-            "background": "#16161a",
-            "primaryOffset": "#e068fd",
-            "textOffset": "#94a1b2",
-            "backgroundOffset": "#29293e"
-        }
-    },
-    {
-        "id": "yoshi",
-        "name": "Yoshi Valley",
-        "colors": {
-            "primary": "#99C221",
-            "secondary": "#E55812",
-            "text": "#41474C",
-            "border": "#e8e0d9",
-            "background": "#fafbf5",
-            "primaryOffset": "#6E910A",
-            "textOffset": "#757D84",
-            "backgroundOffset": "#f2ede9"
-        }
-    },
-    {
-        "id": "rainbow",
-        "name": "Rainbow Road",
-        "colors": {
-            "primary": "#49f5f7",
-            "secondary": "#01c317",
-            "text": "#feff00",
-            "border": "#d846ff",
-            "background": "#140527",
-            "primaryOffset": "#5dccf8",
-            "textOffset": "#ff464d",
-            "backgroundOffset": "#311b46"
+            "primary": "#c77dff",
+            "secondary": "#7b2cbf",
+            "text": "#ffffff",
+            "border": "#a05edb",
+            "background": "#240046",
+            "primaryOffset": "#e0aaff",
+            "textOffset": "#cccccc",
+            "backgroundOffset": "#3c096c"
         }
     },
     {
@@ -124,19 +348,216 @@
             "textOffset": "#146caa",
             "backgroundOffset": "#ffb9ad"
         }
+    }, 
+    {
+        "id": "mint",
+        "name": "Mint Condition",
+        "colors": {
+            "primary": "#a3f7bf",
+            "secondary": "#42c2ff",
+            "text": "#003049",
+            "border": "#caffbf",
+            "background": "#e0f7fa",
+            "primaryOffset": "#76d7a0",
+            "textOffset": "#446675",
+            "backgroundOffset": "#ccf2f4"
+        }
     },
     {
-        "id": "hackernews",
-        "name": "Hacker News",
+        "id": "monokai",
+        "name": "Monokai Pro",
         "colors": {
-            "primary": "#FF6600",
-            "secondary": "#FF6600",
-            "text": "#000000",
-            "border": "#FF6600",
-            "background": "#F6F6EF",
-            "primaryOffset": "#F56200",
-            "textOffset": "#828282",
-            "backgroundOffset": "#F8F8EC"
+            "primary": "#f92672",
+            "secondary": "#66d9ef",
+            "text": "#f8f8f2",
+            "border": "#75715e",
+            "background": "#272822",
+            "primaryOffset": "#fd5a9e",
+            "textOffset": "#a6e22e",
+            "backgroundOffset": "#3e3d32"
+        }
+    },
+    {
+        "id": "dracula",
+        "name": "Dracula",
+        "colors": {
+            "primary": "#ff79c6",
+            "secondary": "#8be9fd",
+            "text": "#f8f8f2",
+            "border": "#44475a",
+            "background": "#282a36",
+            "primaryOffset": "#bd93f9",
+            "textOffset": "#6272a4",
+            "backgroundOffset": "#383a59"
+        }
+    },
+    {
+        "id": "nightowl",
+        "name": "Night Owl",
+        "colors": {
+            "primary": "#82aaff",
+            "secondary": "#c792ea",
+            "text": "#d6deeb",
+            "border": "#1d3b53",
+            "background": "#011627",
+            "primaryOffset": "#5f7e97",
+            "textOffset": "#7e97ab",
+            "backgroundOffset": "#102a43"
+        }
+    },
+    {
+        "id": "github",
+        "name": "GitHub Dark",
+        "colors": {
+            "primary": "#58a6ff",
+            "secondary": "#3fb950",
+            "text": "#c9d1d9",
+            "border": "#30363d",
+            "background": "#0d1117",
+            "primaryOffset": "#79c0ff",
+            "textOffset": "#8b949e",
+            "backgroundOffset": "#161b22"
+        }
+    },
+    {
+        "id": "solarized",
+        "name": "Solarized Dark",
+        "colors": {
+            "primary": "#268bd2",
+            "secondary": "#2aa198",
+            "text": "#839496",
+            "border": "#073642",
+            "background": "#002b36",
+            "primaryOffset": "#6c71c4",
+            "textOffset": "#586e75",
+            "backgroundOffset": "#073642"
+        }
+    },
+      {
+        "id": "onedark",
+        "name": "One Dark Pro",
+        "colors": {
+            "primary": "#e06c75",
+            "secondary": "#61afef",
+            "text": "#abb2bf",
+            "border": "#3e4451",
+            "background": "#282c34",
+            "primaryOffset": "#be5046",
+            "textOffset": "#5c6370",
+            "backgroundOffset": "#21252b"
+        }
+    },
+    {
+        "id": "cobalt2",
+        "name": "Cobalt2",
+        "colors": {
+            "primary": "#ffc600",
+            "secondary": "#ff628c",
+            "text": "#ffffff",
+            "border": "#193549",
+            "background": "#002240",
+            "primaryOffset": "#ffee80",
+            "textOffset": "#4fdbff",
+            "backgroundOffset": "#003366"
+        }
+    },
+    {
+        "id": "material-darker",
+        "name": "Material Darker",
+        "colors": {
+            "primary": "#c792ea",
+            "secondary": "#89ddff",
+            "text": "#eeeeee",
+            "border": "#2e3440",
+            "background": "#1e1e2f",
+            "primaryOffset": "#f07178",
+            "textOffset": "#a6accd",
+            "backgroundOffset": "#2c2c3c"
+        }
+    },
+    {
+        "id": "palenight",
+        "name": "Palenight",
+        "colors": {
+            "primary": "#f78c6c",
+            "secondary": "#c792ea",
+            "text": "#a6accd",
+            "border": "#292d3e",
+            "background": "#292d3e",
+            "primaryOffset": "#ffcb6b",
+            "textOffset": "#89ddff",
+            "backgroundOffset": "#1c1f2b"
+        }
+    },
+    {
+        "id": "ayu-dark",
+        "name": "Ayu Dark",
+        "colors": {
+            "primary": "#ffcc66",
+            "secondary": "#5ccfe6",
+            "text": "#cbccc6",
+            "border": "#191f26",
+            "background": "#0f1419",
+            "primaryOffset": "#ffd580",
+            "textOffset": "#707a84",
+            "backgroundOffset": "#1f262d"
+        }
+    },
+    {
+        "id": "forest",
+        "name": "Emerald Forest",
+        "colors": {
+            "primary": "#2e8b57",
+            "secondary": "#8fbc8f",
+            "text": "#f0fff0",
+            "border": "#3b7a57",
+            "background": "#1f3d2e",
+            "primaryOffset": "#3cb371",
+            "textOffset": "#cceccc",
+            "backgroundOffset": "#2c4b3a"
+        }
+    },
+    {
+        "id": "plasma",
+        "name": "Plasma Core",
+        "colors": {
+            "primary": "#e600ff",
+            "secondary": "#00d4ff",
+            "text": "#ffffff",
+            "border": "#56006b",
+            "background": "#100020",
+            "primaryOffset": "#ff3eff",
+            "textOffset": "#d3bfff",
+            "backgroundOffset": "#2e003e"
+        }
+    },
+    {
+        "id": "sakura",
+        "name": "Sakura Bloom",
+        "colors": {
+            "primary": "#ffb7c5",
+            "secondary": "#ffc8dd",
+            "text": "#3e3e3e",
+            "border": "#ffe5ec",
+            "background": "#fff0f5",
+            "primaryOffset": "#ff8fa3",
+            "textOffset": "#5a5a5a",
+            "backgroundOffset": "#ffe2ed"
+        }
+    },
+    {
+        "id": "sandstorm",
+        "name": "Desert Mirage",
+        "colors": {
+            "primary": "#e0ac69",
+            "secondary": "#f4d06f",
+            "text": "#4e342e",
+            "border": "#c8ad7f",
+            "background": "#fffaf0",
+            "primaryOffset": "#ffcc80",
+            "textOffset": "#6d4c41",
+            "backgroundOffset": "#fbeed9"
         }
     }
+    
 ]

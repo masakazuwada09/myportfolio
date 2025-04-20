@@ -15,23 +15,24 @@
     }
 
     &__title {
+        font-family: 'Figtree', sans-serif; // 👈 Add this
         font-size: 2.5rem;
         line-height: 1;
         margin-bottom: 0.33em;
 
         @include mq(md) {
-            font-size: 5.875rem; //94px
+            font-size: 4rem; //94px
         }
     }
     &__pretitle {
+        font-family: 'Figtree', sans-serif; // 👈 Add this
         order: -1;
-        font-size: 1.1875rem; //19px
+        font-size: 1.1875rem;
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 500;
         letter-spacing: 1px;
         margin-bottom: 1rem;
     }
-
     &__content {
         font-size: 1.5rem;
         font-weight: 300;

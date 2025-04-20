@@ -1,0 +1,24 @@
+// components/pagetransition.scss
+
+.page-transition {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 1;
+    animation: fadeIn 0.4s ease forwards;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

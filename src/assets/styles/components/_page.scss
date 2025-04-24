@@ -6,11 +6,13 @@
         @extend .lead;
     }
     &__content {
-        @include container-narrow;
+        max-width: 960px; /* Increased for images */
+        margin-left: auto;
+        margin-right: auto;
         padding-bottom: 2rem;
 
         &--fullwidth {
-            max-width: none;
+            max-width: 1200px; /* Matches existing fullwidth */
         }
     }
 
@@ -24,7 +26,8 @@
             letter-spacing: -2px;
         }
         &__content {
-            padding-bottom: 4rem;
+            max-width: 960px; /* Allow 800px images */
+            padding-bottom: 1rem;
         }
     }
 
@@ -35,5 +38,26 @@
         &__title {
             font-size: 7rem;
         }
+        &__content {
+            max-width: 1500px; /* Allow 1000px images */
+        }
+    }
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto; /* Preserve aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: block;
+
+    @include mq(md) {
+        max-width: 800px; /* Matches container */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @include mq(lg) {
+        max-width: 1000px; /* Matches container */
     }
 }

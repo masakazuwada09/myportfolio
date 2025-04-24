@@ -1,0 +1,25 @@
+---
+layout: base
+tags: nav
+title: Projects
+eleventyNavigation:
+  key: Projects
+  order: 2
+permalink: /blog/
+---
+<div class="page page--blog">
+    <header class="page__header">
+        <h1 class="page__title">{{ title }}</h1>
+    </header>
+    <div class="page__content">
+        <!-- Display appmockup.png with eleventy-img -->
+        <img
+                        class="responsive-image"
+                        src="{{ '/assets/images/appmockup.png' | url }}"
+                        sizes="(min-width: 1940px) 5200vw, 500vw"
+                        alt="Masakazu"
+                        eleventy:widths="1800,5600"
+                    />
+  
+    </div>
+</div>

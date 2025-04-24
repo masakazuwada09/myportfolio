@@ -1,0 +1,39 @@
+.projectlist__grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .projectlist__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .projectlist__img-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    border-radius: 8px;
+  }
+  .projectlist__arrow {
+    display: inline-block;
+    margin-left: 0.5rem;
+    transition: transform 0.2s ease;
+  }
+  .projectlist__link:hover .projectlist__arrow {
+    transform: translateX(4px);
+  }
+  @media (max-width: 768px) {
+    .projectlist__grid {
+      grid-template-columns: 1fr;
+    }
+    .projectlist__image {
+      margin-bottom: 1rem;
+    }
+  }

@@ -1,0 +1,19 @@
+
+
+@font-face {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+    src: url('/assets/fonts/Figtree-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-display: auto;
+    font-weight: 200;
+    src: url('/assets/fonts/lobster.woff2') format('woff2'),
+        url('/assets/fonts/lobster.woff') format('woff');
+}

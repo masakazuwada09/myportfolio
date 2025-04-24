@@ -1,0 +1,20 @@
+.github-stats,
+.github-contributions {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .github-stats,
+    .github-contributions {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+}

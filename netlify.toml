@@ -23,12 +23,7 @@
   [headers.values]
     cache-control = "max-age=0,no-cache,no-store,must-revalidate"
 
-# Netlify subdomain
-[[redirects]]
-    from = "https://mxb.netlify.com/*"
-    to = "https://mxb.dev/:splat"
-    status = 301
-    force = true
+
 
 # AT domain
 [[redirects]]
@@ -52,13 +47,6 @@
 [[redirects]]
     from = "https://mxb.dev/blog/rethinking-social-media"
     to = "https://mxb.dev/blog/the-indieweb-for-everyone"
-    status = 302
-    force = true
-
-# Bots
-[[redirects]]
-    from = "/wp-login.php"
-    to = "https://www.fbi.gov"
     status = 302
     force = true
 

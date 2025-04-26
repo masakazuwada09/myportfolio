@@ -7,21 +7,13 @@
             "name": "masakazu",
             "url": "https://github.com/masakazuwada09"
         },
-        "mastodon": {
-            "name": "mxbck",
-            "url": "https://front-end.social/@mxbck"
+        "behance": {
+            "name": "masakazu",
+            "url": "https://www.behance.net/kyahwads"
         },
-        "bluesky": {
-            "name": "mxb.dev",
-            "url": "https://bsky.app/profile/mxb.dev"
-        },
-        "codepen": {
-            "name": "mxbck",
-            "url": "https://codepen.io/mxbck/"
-        },
-        "notist": {
-            "name": "mxb",
-            "url": "https://noti.st/mxb"
+        "linkedIn": {
+            "name": "masakazu",
+            "url": "https://www.linkedin.com/in/mmedalle/"
         }
     }
 }

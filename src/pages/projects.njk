@@ -12,14 +12,84 @@ permalink: /blog/
         <h1 class="page__title">{{ title }}</h1>
     </header>    
     <div class="page__content">
-        <!-- Display appmockup.png with eleventy-img -->
-                        <img
-                        class="responsive-image"
-                        src="{{ '/assets/images/appmockup.png' | url }}"
-                        sizes="(min-width: 1040px) 5200vw, 100vw"
-                        alt="Masakazu"
-                        eleventy:widths="1800,5600"
-                    />
-  
+        <div class="project-container">
+            <!-- Image Column -->
+            <div class="project-image">
+                <img
+                    class="responsive-image"
+                    src="{{ '/assets/images/appmockup.png' | url }}"
+                    sizes="(min-width: 1040px) 50vw, 100vw"
+                    alt="Doctor Nurse App Mockup"
+                    eleventy:widths="900,1800"
+                />
+            </div>
+            <!-- Description Column -->
+            <div class="project-description">
+                <h2>Doctor Nurse App</h2>
+                <p>
+                    The Doctor Nurse App is a mobile application designed to streamline communication and coordination between doctors and nurses in healthcare settings. It provides real-time updates on patient status, task assignments, and secure messaging to enhance workflow efficiency and improve patient care outcomes.
+                </p>
+                <h3>Tools Used</h3>
+                <ul>
+                    <li><strong>React Native</strong>: For cross-platform mobile app development.</li>
+                    <li><strong>Node.js</strong>: Backend server for handling API requests.</li>
+                    <li><strong>MongoDB</strong>: Database for storing user and patient data.</li>
+                    <li><strong>Firebase</strong>: For real-time notifications and authentication.</li>
+                    <li><strong>Figma</strong>: For designing the app's UI/UX.</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
+
+<style>
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-description {
+    padding: 1rem;
+}
+
+.project-description h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.project-description h3 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-description p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.project-description ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.project-description li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+}
+</style>

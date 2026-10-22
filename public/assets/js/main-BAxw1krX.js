@@ -64103,7 +64103,7 @@ class _u0 extends Te {
     }
     async preload(e) {
         this.smsyText = await V9.get({
-            text: "SMSY",
+            text: "MSKZ",
             letterSpacing: 10,
             instanced: !1
         }), this.smsyText.scale.set(10, -10, 10), this.smsyText.rotation.set(0, Math.PI, 0), this.smsyText.position.set(0, 5, 0), this.add(this.smsyText), this.creative = await V9.get({
@@ -76931,9 +76931,9 @@ function Wp0(r, e, t, i, s, n) {
     }, [U0("h1", {
         id: "smsy",
         class: "bold"
-    }, [ep("SMSY "), U0("span", null, "©"), ep(" 26’")]), U0("h2", null, " クリエイティブテクノロジスト"), U0("div", {
+    }, [ep("MSKZ "), U0("span", null, "©"), ep(" 26’")]), U0("h2", null, " クリエイティブテクノロジスト"), U0("div", {
         class: "big-title"
-    }, "SMSY"), U0("h3", null, " クリエイティブテクノロジスト")], -1)), U0("div", qp0, [e[3] || (e[3] = U0("div", {
+    }, "MSKZ"), U0("h3", null, " クリエイティブテクノロジスト")], -1)), U0("div", qp0, [e[3] || (e[3] = U0("div", {
         class: "about-text-container-half"
     }, [U0("p", null, "My projects are influenced by everyone I meet, from Gobelins school to university classmates, Google Creative Lab, artist friends and makers. They've all helped me develop my signature technique throughout the years."), U0("p", null, "I started working in digital 12 years ago from Paris - 93. Since then, I've earned 50+ international awards including Gold Cannes Lion, Awwwards, Adobe Cutting Edge, and FWA ( days, months, and year award ) both as an independent creative technologist and as part of teams."), U0("p", null, "I help people understand technical and graphical challenges shaping digital experiences, creating 3D interactive graphics, computational code, marketing experiences, & visual arts. Contact me for availabilities.")], -1)), e[4] || (e[4] = U0("div", {
         class: "about-text-container-half"

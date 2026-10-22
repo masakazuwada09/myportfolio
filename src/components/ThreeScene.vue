@@ -50,7 +50,7 @@ onMounted(() => {
   scriptEl = document.createElement('script')
   scriptEl.type = 'module'
   scriptEl.crossOrigin = ''
-  scriptEl.src = '/assets/js/main-BAxw1krX.js?v=fixed'
+  scriptEl.src = '/assets/js/main-BAxw1krX.js?v=mskz'
   document.body.appendChild(scriptEl)
 })
 
